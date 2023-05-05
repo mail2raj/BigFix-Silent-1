@@ -6,6 +6,8 @@
 }
 #Files for the installer -- added by VJ- for mail2raj
 # new update by VJ for All by Raj
+
+#by Vijay at 4 pm 
 $server = "BigFix Server.msi"
 $console = "BigFix Console.msi"
 $client = "BigFix Client.msi"
