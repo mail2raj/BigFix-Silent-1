@@ -5,7 +5,7 @@
     exit
 }
 #Files for the installer -- added by VJ- for mail2raj
-# new update by VJ for All
+# new update by VJ for All by Raj
 $server = "BigFix Server.msi"
 $console = "BigFix Console.msi"
 $client = "BigFix Client.msi"
