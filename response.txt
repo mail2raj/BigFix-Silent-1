@@ -1,0 +1,65 @@
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-DlgOrder]
+Dlg0={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdWelcome-0
+Count=12
+Dlg1={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdComponentTree-0
+Dlg2={3AF6FF66-2394-4236-9981-77BCB12F246B}-BESCredentials-0
+Dlg3={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAsk2Options-0
+Dlg4={3AF6FF66-2394-4236-9981-77BCB12F246B}-FirstBESUser-0
+Dlg5={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAsk2Options-1
+Dlg6={3AF6FF66-2394-4236-9981-77BCB12F246B}-SQLServerSelectLogin-0
+Dlg7={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAskDestPath-0
+Dlg8={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowDlgEditWithProxy-0
+Dlg9={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowDlgEdit2-0
+Dlg10={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowInfoList-0
+Dlg11={3AF6FF66-2394-4236-9981-77BCB12F246B}-SdFinish-0
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdWelcome-0]
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdComponentTree-0]
+szDir=C:\Program Files (x86)\BigFix Enterprise\BES Server\
+Component-type=string
+Component-count=3
+Component-0=ServerShared
+Component-1=BESServer
+Component-2=WebReports
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-BESCredentials-0]
+Result=1
+svSitePvkPath=C:\BF-Files\license.pvk
+svSitePvkPwd=Admin098!
+svMastheadPath=C:\BF-Files\masthead.afxm
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAsk2Options-0]
+Result=1
+bvCheck1=1
+bvCheck2=0
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-FirstBESUser-0]
+Result=1
+svBESUserName=bigadmin
+svBESUserPwd=Admin098!
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAsk2Options-1]
+Result=1
+bvCheck1=0
+bvCheck2=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SQLServerSelectLogin-0]
+szUser=bfapp02\administrator
+szPass=Admin098!
+szServer=bfapp02
+szDB=' '
+szAuthen=1
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdAskDestPath-0]
+szDir=C:\Program Files (x86)\BigFix Enterprise\BES Server\
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowDlgEditWithProxy-0]
+Result=1
+svField1=C:\Program Files (x86)\BigFix Enterprise\BES Server\wwwrootbes
+svField2=http://bfapp02:52311
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowDlgEdit2-0]
+szEdit1=C:\Program Files (x86)\BigFix Enterprise\BES Server\BESReportsServer\wwwroot
+szEdit2=8083
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdShowInfoList-0]
+Result=1
+[{3AF6FF66-2394-4236-9981-77BCB12F246B}-SdFinish-0]
+Result=1
+bOpt1=0
+bOpt2=0
