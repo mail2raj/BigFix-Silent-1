@@ -4,7 +4,7 @@
     Write-Host "Error: C:\BF-Files directory does not exist."
     exit
 }
-#Files for the installer
+#Files for the installer -- added by VJ
 $server = "BigFix Server.msi"
 $console = "BigFix Console.msi"
 $client = "BigFix Client.msi"
